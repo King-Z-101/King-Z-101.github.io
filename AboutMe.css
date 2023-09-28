@@ -1,0 +1,131 @@
+body {
+    background-color: #34495e;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: #34495e;
+    color: white;
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: #34495e;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    border: 3px solid white;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 40px;
+    animation-name: Text;
+    animation-duration: 10s;
+    animation-iteration-count: 100;
+}
+
+@keyframes Text {
+    0% {border-color: white;}
+    25% {border-color: yellow;}
+    50% {border-color: pink;}
+    75% {border-color: yellow;}
+    100% {border-color: white;}
+}
+
+.P1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-indent: 15px;
+}
+
+#p1
+{
+    border-radius: 25px;
+    background: #d4edda;
+    padding: 20px;
+    width: 70%;
+    height: 180px;
+    margin: auto;
+    font-size: 20px;
+    color: #155724;
+    text-align: center;
+}
+
+.AOT {
+    margin: 30px;
+    margin-left: 60px;
+    text-align: center;
+    width: 350px;
+    color: white;
+    float: left;
+}
+
+.AOT img {
+    border: 3px solid #edf5e1;
+    margin-bottom: 5px;
+}
+
+.Shows {
+    color: #edf5e1;
+    margin-left: 90px;
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+}
+
+ul, ol {
+    font-size: 20px;
+    margin-left: 115px;
+    text-align: left;
+}
+
+.Food {
+    float: right;
+    margin: 30px;
+    margin-right: 60px;
+    text-align: center;
+    width: 333px;
+    color: white;
+}
+
+.Food img {
+    border: 3px solid #edf5e1;
+    margin-bottom: 5px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 700px;
+  padding-top: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.footer a {
+    color: #4eff4e;
+    font-size: 20px;
+}
+
+
+#btnScrollToTop {
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#btnScrollToTop:active {
+    background: #F0F3F4;
+}
