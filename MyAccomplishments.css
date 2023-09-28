@@ -1,0 +1,149 @@
+body {
+    background-color: #34495e;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 50px;
+    background-color: #34495e;
+    color: white;
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: #34495e;
+}
+
+h1 {
+    color: white;
+    width: 200px;
+    border: 5px solid white;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    animation-name: Text;
+    animation-duration: 10s;
+    animation-iteration-count: 100;
+}
+
+@keyframes Text {
+    0% {border-color: white;}
+    25% {border-color: yellow;}
+    50% {border-color: pink;}
+    75% {border-color: yellow;}
+    100% {border-color: white;}
+}
+
+#resume {
+  border: 5px solid white;
+  animation-name: Text;
+  animation-duration: 10s;
+  animation-iteration-count: 100;
+}
+
+.footer {
+  text-align: auto;
+  margin-top: 50px;
+  padding-top: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.footer a {
+    color: #4eff4e;
+    font-size: 20px;
+}
+
+#btnScrollToTop {
+    position: fixed;
+    right: 15px;
+    bottom: -40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#btnScrollToTop:active {
+    background: #F0F3F4;
+}
+
+/*h2 {*/
+/*    text-align: center;*/
+/*    color: white;*/
+/*}*/
+
+/*li {*/
+/*    font-size: 30px;*/
+/*    margin: 10px 0;*/
+/*    padding-top: 5px;*/
+/*}*/
+
+/*.left {*/
+/*    background-color: #262228;*/
+/*    float: left;*/
+/*    width: 42%;*/
+/*    height: 700px;*/
+/*    margin-left: 3%;*/
+/*    margin-bottom: 5%;*/
+/*    border: 5px solid white;*/
+/*    animation-name: Text;*/
+/*    animation-duration: 10s;*/
+/*    animation-iteration-count: 100;*/
+/*    padding-top: 10px;*/
+/*    color: white;*/
+/*}*/
+
+/*.left img {*/
+/*    float: left;*/
+/*    margin-top: 80px;*/
+/*}*/
+
+/*.right img {*/
+/*    float: right;*/
+/*    margin-top: 180px;*/
+/*    margin-right: 8%;*/
+/*}*/
+
+/*#ECHS {*/
+/*    margin-left: 5px;*/
+    /*This is what I changed so far*/
+/*}*/
+
+
+/*#sport {*/
+/*    float:left;*/
+/*    margin-left: 27.5%;*/
+/*}*/
+
+/*#code {*/
+/*    float: right;*/
+/*    margin-top: 30px;*/
+/*    border: 3px solid white;*/
+/*}*/
+
+/*.right {*/
+/*    background-color: #262228;*/
+/*    float: right;*/
+/*    width: 42%;*/
+/*    height: 700px;*/
+/*    margin-right: 3%;*/
+/*    margin-bottom: 5%;*/
+/*    border: 5px solid white;*/
+/*    animation-name: Text;*/
+/*    animation-duration: 10s;*/
+/*    animation-iteration-count: 200;*/
+/*    padding-top: 10px;*/
+/*    color: white;*/
+/*}*/
+
+
