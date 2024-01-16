@@ -30,13 +30,10 @@ h1 {
     animation-iteration-count: 1000;
 }
 
-h2
+.musicList
 {
     color: white;
     padding-left: 10px;
-    animation-name: Text;
-    animation-duration: 10s;
-    animation-iteration-count: 1000;
 }
 
 @keyframes Hehe {
