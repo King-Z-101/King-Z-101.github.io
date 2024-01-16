@@ -32,7 +32,8 @@ h1 {
 
 h2
 {
-    padding-left: 5px;
+    color: white;
+    padding-left: 10px;
     animation-name: Text;
     animation-duration: 10s;
     animation-iteration-count: 1000;
