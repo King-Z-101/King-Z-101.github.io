@@ -33,9 +33,19 @@ h1 {
 h2
 {
     /* padding-bottom: 20px; */
-    animation-name: Text;
+    color: white;
+    padding-left: 5px;
+    animation-name: Text2;
     animation-duration: 10s;
     animation-iteration-count: 1000;
+}
+
+@keyframes Text2 {
+    0% {border-color: white;}
+    25% {border-color: yellow;}
+    50% {border-color: pink;}
+    75% {border-color: yellow;}
+    100% {border-color: white;}
 }
 
 
