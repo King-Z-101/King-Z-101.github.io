@@ -30,20 +30,26 @@ h1 {
     animation-iteration-count: 1000;
 }
 
+h2 {
+    color: white;
+}
+
 .musicList
 {
-    color: white;
+    animation-name: Hehe;
+    animation-duration: 10s;
+    animation-iteration-count: 1000;
     padding-left: 20px;
-    color: #4eff4e;
+    /* color: #4eff4e; */
     font-size: 20px;
 }
 
 @keyframes Hehe {
-    0% {border-color: white;}
-    25% {border-color: yellow;}
-    50% {border-color: pink;}
-    75% {border-color: yellow;}
-    100% {border-color: white;}
+    0% {color: white;}
+    25% {color: yellow;}
+    50% {color: pink;}
+    75% {color: yellow;}
+    100% {color: white;}
 }
 
 
