@@ -87,7 +87,7 @@ body {
 .player_1_score { 
 	height: 50px; 
 	width: 50px; 
-	color: chartreuse; 
+	color: #020024; 
 	position: fixed; 
 	left: 30vw; 
 	margin-top: 30px; 
@@ -96,7 +96,7 @@ body {
 .player_2_score { 
 	height: 50px; 
 	width: 50px; 
-	color: chartreuse; 
+	color: #020024; 
 	position: fixed; 
 	left: 70vw; 
 	margin-top: 30px; 
