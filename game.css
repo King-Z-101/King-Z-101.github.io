@@ -8,8 +8,8 @@
 body { 
 	height: 100vh; 
 	width: 100vw; 
-	background-image: linear-gradient( 
-			to top, #ffda77, #ffa45b); 
+	background-image: radial-gradient(circle at top center, #020024, #34495e, #ffffff);
+ 
 	display: flex; 
 	justify-content: center; 
 	align-items: center; 
